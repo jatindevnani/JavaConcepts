@@ -1,7 +1,5 @@
 package _2_Design_Patterns._a_Factory_Pattern;
 
-import javax.swing.plaf.metal.MetalIconFactory;
-
 public class FP {
     public static void main(String[] args) {
         Shape circle = ShapeFactory.getShape(SHAPES.SQUARE, 5);
@@ -23,7 +21,7 @@ class ShapeFactory {
         } else if (shapesEnum == SHAPES.SQUARE) {
             return new Square(lengthOfSideOrRadius);
         } else {
-            throw new IllegalArgumentException("Shape doesnt exist");
+            throw new IllegalArgumentException("Shape doesn't exist");
         }
     }
 }
