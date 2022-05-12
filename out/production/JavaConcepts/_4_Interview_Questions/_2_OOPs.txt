@@ -1,0 +1,11 @@
+The four Concepts of Object Oriented Programming are -
+1) Encapsulation -
+    Encapsulation in java is a mechanism where the data members i.e. the variables of a class
+    and the methods acting upon these variables are wrapped inside a single unit.
+        In Encapsulation, the variables of a class will be hidden from other classes, and can
+    only be accessed through the public getter and setter methods. Therefore, it is also
+    known as *data hiding*.
+
+    To Achieve encapsulation,
+        1) Mark the variables of the class as private
+        2) Provide public getter and setter methods to read or write on these variables.
