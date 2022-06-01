@@ -9,3 +9,43 @@ The four Concepts of Object Oriented Programming are -
     To Achieve encapsulation,
         1) Mark the variables of the class as private
         2) Provide public getter and setter methods to read or write on these variables.
+
+2) Inheritance -
+    In inheritance, a java class gets access to all the properties and methods of another class through
+    an "IS-A" relationship aka Inheritance. Inheritance takes place when one class extends another
+    class using the "extends" keyword.
+
+    Why Inheritance?
+        (a) Code Re-usability
+        (b) For overriding methods and achieve Runtime Polymorphism
+
+    Types -
+        (a) Single Inheritance
+        (b) Multi level
+        (c) Hierarchical
+
+        Java doesn't support multiple inheritance
+
+3) Polymorphism -
+    Polymorphism is the ability of an object to take many forms. In Java, an object is called polymorphic if
+    it can pass more than one "IS-A" test. Most commonly, it occurs when a parent class object is used to refer
+    to a child class object.
+
+    Runtime Polymorphism -
+
+    It is achieved when a superclass object refers to a child class object and an overridden method is called.
+    The methods to be invoked will be resolved at runtime by the JVM and not the compiler that is why it's
+    called runtime polymorphism. It is also called as late binding.
+
+    Upcasting -> When a superclass object is used to refer to a subclass object. We can also use the class type
+    or interface type for upcasting.
+    reference
+
+    A method is overridden, not the data members, so runtime polymorphism can't be achieved by data members.
+
+4) Abstraction -
+    Abstraction means hiding the complex and unnecessary internal implementation details from the user and
+    exposing only the essential details. User just needs to know which methods are available to call and
+    what input is needed to trigger a specific operation. But they don't have to know how the methods are
+    implemented and what kind of actions it has to perform to create the expected result.
+

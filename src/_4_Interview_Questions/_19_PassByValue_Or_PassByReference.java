@@ -9,6 +9,4 @@ public class _19_PassByValue_Or_PassByReference {
     //When an object is passed to a new method.
     //The address value is copied into a new variable
     //and this variable is sent to the method
-
-
 }

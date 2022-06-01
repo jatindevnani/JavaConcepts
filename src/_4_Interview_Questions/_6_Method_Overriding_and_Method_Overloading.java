@@ -6,7 +6,7 @@ public class _6_Method_Overriding_and_Method_Overloading {
 
 class Overloading {
     //_1_Method overloading is one way to achieve polymorphism, it is compile-time polymorphism.
-    //_2_It is made possible by creating multiple methods having same name and different signatures.
+    //_2_It is made possible by creating multiple methods having same name but different signatures.
     //_3_Compiler differentiates between these methods having the same name by the difference in
     //   the parameter types and the number of parameters.
     //_4_Method overloading takes place inside the class only.
@@ -20,5 +20,4 @@ class Overriding {
     //_3_Method overriding always needs inheritance.
     //_4_It is determined at the runtime which class object will be called.
     //_5_Return type MUST BE THE SAME.
-
 }

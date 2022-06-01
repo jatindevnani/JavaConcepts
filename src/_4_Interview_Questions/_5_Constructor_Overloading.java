@@ -4,7 +4,7 @@ public class _5_Constructor_Overloading {
 
     //Constructor Overloading is the process of creating multiple constructors with the same name
     //for a given class. The compiler differentiates between these constructors on the basis of
-    //the number of constructors and/or the type of the parameters.
+    //the number of parameters and/or the type of the parameters.
 
     private int var1;
     private String var2;

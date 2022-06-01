@@ -2,7 +2,7 @@ package _4_Interview_Questions;
 
 public class _11_Super_Keyword {
 
-    //Super keyword is used by the subclas of a class to call the following -
+    //Super keyword is used by the subclass of a class to call the following -
         //1) The constructor method of the parent class
         //2) The Specific variables of the parent class
         //3) The parent class methods for the overridden methods.

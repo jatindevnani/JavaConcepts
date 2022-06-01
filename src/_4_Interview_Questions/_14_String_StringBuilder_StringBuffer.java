@@ -2,6 +2,10 @@ package _4_Interview_Questions;
 
 public class _14_String_StringBuilder_StringBuffer {
 
+    public _14_String_StringBuilder_StringBuffer() {
+
+    }
+
     //String is immutable
     //String buffer and string builder are mutable
     //String buffer is synchronized i.e. thread safe
